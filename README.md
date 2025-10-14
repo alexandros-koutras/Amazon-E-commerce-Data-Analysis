@@ -71,5 +71,5 @@ The project is divided into two major parts: Data Pre-processing/Feature Enginee
 
 ## 📂 Project Structure
 
-├── notebooks/      # Includes the 2 notebooks for the project
+├── notebooks/      # Includes the 2 notebooks for the project  
 └── README.md       # Project documentation
