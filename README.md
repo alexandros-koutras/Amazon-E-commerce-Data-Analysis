@@ -35,9 +35,9 @@ The project is divided into two major parts: Data Pre-processing/Feature Enginee
 
 ### Part 2: Machine Learning Tasks
 
-- **Clustering for Product Grouping**: Applied the K-Means algorithm on product features and vectorized text data.
-- **Classification (Sentiment Prediction)**:	Implemented Classification models (e.g., Logistic Regression, Naive Bayes, Decision Trees) to predict a discrete target variable
-- **Model Evaluation**: Thorough evaluation of classification models using metrics: Accuracy, Precision, Recall, and F1-Score.
+- **Clustering for Product Grouping**: Applied the K-Means algorithm with the elbow method and evaluated it using the Silhouette Score on product features to group them.
+- **Recommendation System**: Make personalized product recommendations with CF and CBF using cosine similarity.
+- **Classification (Sentiment Prediction)**:	Implemented Classification models (KNN, Naive Bayes, Random Forests) to predict a discrete target variable and evaluated them using the 10-fold-cross-validation.
 - **Association Rule Mining**: Apriori Algorithm applied to product transactions to discover frequent itemsets (products often bought together) and generate association rules.
 
 
