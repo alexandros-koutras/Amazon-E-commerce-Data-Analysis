@@ -30,8 +30,7 @@ The project is divided into two major parts: Data Pre-processing/Feature Enginee
 - **Data Acquisition & Filtering**:	Loaded and filtered the Amazon Product Dataset using the Hugging Face datasets library to select five specific product categories for feasibility.
 - **Pre-processing**:	Data cleaning steps included handling missing values and normalizing price, title, and brand columns.
 - **Exploratory Data Analysis (EDA)**: Detailed visualization of product ratings distribution and analysis of review count per product to identify outliers and best-sellers.
-- **Sentiment Feature Engineering**: Engineered a final feature, combined_score, using a custom sentiment metric. This metric combines a pre-trained Hugging Face sentiment model's confidence with the normalized
-  numerical user rating (normalized 0 to 1).
+- **Sentiment Feature Engineering**: Engineered a final feature, combined_score, using a custom sentiment metric. This metric combines a pre-trained Hugging Face sentiment model's confidence with the normalized numerical user rating (normalized 0 to 1).
 - **Text Preparation**:	Pre-processed review text using techniques like stop-word removal and lemmatization/stemming in preparation for text-based clustering.
 
 ### Part 2: Machine Learning Tasks
@@ -46,19 +45,20 @@ The project is divided into two major parts: Data Pre-processing/Feature Enginee
 
 
 ## 🧰 Technologies Used & Libraries
-- **Language**: Python 3.x  
-- **Framework**: Jupyter Notebook  
+- **Language**: Python 3
+- **Framework**: Jupyter Notebook
 - **Data Manipulation**: pandas, numpy
-- **Data Acquisition**: datasets (Hugging Face) 
-- **Sentiment Analysis**: nltk, transformers (Hugging Face) 
-- **Visualization**: matplotlib, seaborn 
-- **Text Pre-processing**: nltk  
+- **Data Acquisition**: datasets (Hugging Face)
+- **Sentiment Analysis**: nltk, transformers (Hugging Face)
+- **Visualization**: matplotlib, seaborn
+- **Text Pre-processing**: nltk
 - **ML models**: scikit-learn
+
 
 ---
 
 
 ## 📂 Project Structure
 
-├── notebooks/      # Includes the 2 notebooks for the project  
+├── notebooks/      # Includes the 2 notebooks for the project
 └── README.md       # Project documentation
