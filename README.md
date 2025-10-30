@@ -13,6 +13,7 @@ This project implements a complete e-commerce data analysis and machine learning
 
 
 ## 📂 Contents
+
 - **`amazonreviewss.ipynb`** – Initial exploration and preprocessing of Amazon reviews dataset. Includes text cleaning, visualization, and sentiment distribution.
 - **`amazonreviews_part2.ipynb`** – Extended analysis with feature extraction, model training (e.g., sentiment classification), and evaluation.
 
