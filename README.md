@@ -8,8 +8,6 @@
 
 This project implements a complete e-commerce data analysis and machine learning pipeline using a subset of the Amazon Product Dataset. The goal is to extract meaningful insights from product reviews and metadata and apply various machine learning techniques for clustering, classification, recommendation, and sentiment analysis.
 
-The analysis focuses on five selected product categories to demonstrate a comprehensive, end-to-end data science workflow.
-
 
 ---
 
@@ -37,13 +35,10 @@ The project is divided into two major parts: Data Pre-processing/Feature Enginee
 
 ### Part 2: Machine Learning Tasks
 
-- **Clustering for Product Grouping**: Applied the K-Means algorithm on product features and vectorized text data to identify latent groups of similar products. The text vectorization approach used was likely TF
-  IDF.
-- **Classification (Sentiment Prediction)**:	Implemented Classification models (e.g., Logistic Regression, Naive Bayes, Decision Trees) to predict a discrete target variable, likely the review sentiment
-  (POSITIVE/NEGATIVE). The notebook output shows common classification metrics being calculated.
-- **Model Evaluation**: Thorough evaluation of classification models using standard metrics: Accuracy, Precision, Recall, and F1-Score. The output indicates the use of sklearn.metrics for evaluation.
+- **Clustering for Product Grouping**: Applied the K-Means algorithm on product features and vectorized text data.
+- **Classification (Sentiment Prediction)**:	Implemented Classification models (e.g., Logistic Regression, Naive Bayes, Decision Trees) to predict a discrete target variable
+- **Model Evaluation**: Thorough evaluation of classification models using metrics: Accuracy, Precision, Recall, and F1-Score.
 - **Association Rule Mining**: Apriori Algorithm applied to product transactions to discover frequent itemsets (products often bought together) and generate association rules.
-- **Temporal Analysis**: Applied the Apriori Algorithm to data segmented by time periods (e.g., month/season) to discover time-specific association rules (seasonality).
 
 
 ---
